@@ -3,12 +3,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F1F9FF; /* Пастельный светло-синий */
+    background-color: #3F7EBF; /* Пастельный светло-синий */
     color: #333;
 }
 
 header {
-    background-color: #B3D9D9; /* Пастельный фисташковый */
+    background-color: #3F7EBF; /* Пастельный фисташковый */
     color: #333;
     text-align: center;
     padding: 20px;
