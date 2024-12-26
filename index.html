@@ -1,35 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Докс на Армана |By Тихо</title>
+    <title>Докс на Армана</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Докс на Армана</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#contact">Contact</a>
-        </nav>
     </header>
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-                This is a simple website example created using HTML and CSS. You can use this as a starting point for your projects!
-            </p>
+        <section class="form-section">
+            <div class="input-group">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" placeholder="Введите имя">
+            </div>
+            <div class="input-group">
+                <label for="phone">Номер телефона:</label>
+                <input type="text" id="phone" placeholder="Введите номер телефона">
+            </div>
+            <div class="input-group">
+                <label for="school">Школа:</label>
+                <input type="text" id="school" placeholder="Введите название школы">
+            </div>
+            <div class="input-group">
+                <label for="age">Возраст:</label>
+                <input type="number" id="age" placeholder="Введите возраст">
+            </div>
+            <div class="input-group">
+                <label for="address">Адрес:</label>
+                <input type="text" id="address" placeholder="Введите адрес">
+            </div>
+            <div class="input-group">
+                <label for="parents">Имена родителей:</label>
+                <input type="text" id="parents" placeholder="Введите имена родителей">
+            </div>
+            <div class="input-group">
+                <label for="job">Работа:</label>
+                <input type="text" id="job" placeholder="Введите работу">
+            </div>
+            <div class="input-group">
+                <label for="hobby">Любимое занятие:</label>
+                <input type="text" id="hobby" placeholder="Введите любимое занятие">
+            </div>
+            <div class="input-group">
+                <label for="ip">IP-адрес:</label>
+                <input type="text" id="ip" placeholder="Введите IP-адрес">
+            </div>
         </section>
-        <section id="gallery">
-            <h2>Gallery</h2>
-            <img src="https://via.placeholder.com/300" alt="Placeholder image">
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>If you’d like to get in touch, click the button below:</p>
-            <button>Contact Me</button>
-        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Докс на Армана</p>
+    </footer>
 </body>
 </html>
