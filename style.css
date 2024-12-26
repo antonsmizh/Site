@@ -1,11 +1,11 @@
 /* Общий стиль */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, san-francisco;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     color: #333;
-    background-color: #f4f4f9;
+    background-color: #87CEEB;
 }
 
 /* Шапка */
