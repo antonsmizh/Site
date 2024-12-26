@@ -1,84 +1,71 @@
-/* Общий стиль */
+/* Общие стили */
 body {
-    font-family: Arial, san-francisco;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    background-color: #F1F9FF; /* Пастельный светло-синий */
     color: #333;
-    background-color: #B0E0E6;
 }
 
-/* Шапка */
 header {
-    background: #B0E0E6;
-    color: white;
-    padding: 1rem 0;
+    background-color: #B3D9D9; /* Пастельный фисташковый */
+    color: #333;
     text-align: center;
-}
-
-header h1 {
-    margin: 0;
-}
-
-header nav {
-    margin-top: 0.5rem;
-}
-
-header nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: bold;
-}
-
-header nav a:hover {
-    text-decoration: underline;
-}
-
-/* Основной контент */
-main {
     padding: 20px;
 }
 
-main section {
-    margin-bottom: 2rem;
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
 }
 
-main h2 {
-    border-bottom: 2px solid #B0E0E6;
-    padding-bottom: 0.5rem;
-    color: #B0E0E6;
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-main img {
+.form-section {
+    background-color: #FFEBF0; /* Пастельный розовый */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
     display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 1rem 0;
+    font-weight: bold;
+    color: #555;
 }
 
-/* Кнопка */
-button {
-    background: #B0E0E6;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 1rem;
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 1rem;
 }
 
-button:hover {
-    background: #B0E0E6;
+input[type="text"], input[type="number"] {
+    background-color: #FFFFFF;
 }
 
-/* Подвал */
+input:focus {
+    border-color: #A3C4D7; /* Пастельный голубой для фокуса */
+    outline: none;
+}
+
 footer {
     text-align: center;
-    background: #333;
-    color: white;
-    padding: 1rem 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    background-color: #B3D9D9;
+    padding: 15px;
+    color: #333;
+    font-size: 1rem;
 }
